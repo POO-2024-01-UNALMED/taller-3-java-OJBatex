@@ -103,5 +103,9 @@ public class TV {
 	public void setControl(Control control) {
 		this.control = control;
 	}
+	
+	public boolean getEstado() {
+		return estado;
+	}
 
 }
