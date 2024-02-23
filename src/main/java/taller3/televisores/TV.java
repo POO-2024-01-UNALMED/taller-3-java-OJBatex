@@ -106,12 +106,12 @@ public class TV {
 		return estado;
 	}
 	
-	public int getNumTV() {
+	public static int getNumTV() {
 		return numTV;
 		
 	}
 	
-	public void setNumTV() {
+	public static void setNumTV() {
 		numTV++;
 	}
 
