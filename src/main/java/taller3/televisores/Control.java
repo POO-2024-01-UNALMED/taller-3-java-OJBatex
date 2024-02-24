@@ -43,13 +43,13 @@ public class Control {
 	
 	public void setCanal(int canal) {
 		if (canal >= 1 && canal <=120) {
-			tv.canal = canal;
+			tv.setCanal(canal);
 		}
 	}
 	
 	public void setVolumen(int volumen) {
 		if (volumen >=1 && volumen <= 7) {
-			tv.volumen = volumen;
+			tv.setVolumen(volumen);
 		}
 		
 	}
