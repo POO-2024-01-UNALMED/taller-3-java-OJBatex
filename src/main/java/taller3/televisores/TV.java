@@ -8,13 +8,13 @@ public class TV {
 	int volumen = 1;
 	Control control;
 	
-	static int numTV;
+	private static int numTV;
 	
 	
 	public TV(Marca marca, boolean estado) {
 		this.marca = marca;
 		this.estado = estado;
-		setNumTV();
+		numTV++;
 		
 	}
 	
